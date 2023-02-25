@@ -8,6 +8,9 @@ fastapi = "*"
 mypy = "*"
 sqlalchemy = "2"
 flask-sqlalchemy = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+python-multipart = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
 
 [dev-packages]
 
