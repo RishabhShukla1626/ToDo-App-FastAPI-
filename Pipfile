@@ -12,6 +12,9 @@ passlib = {extras = ["bcrypt"], version = "*"}
 python-multipart = "*"
 python-jose = {extras = ["cryptography"], version = "*"}
 psycopg2-binary = "*"
+alembic = "*"
+aiofiles = "*"
+jinja2 = "*"
 
 [dev-packages]
 
