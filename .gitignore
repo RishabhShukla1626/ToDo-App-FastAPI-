@@ -2,3 +2,5 @@
 * .my
 *__pycache__
 *.json
+*.xml
+*.iml
