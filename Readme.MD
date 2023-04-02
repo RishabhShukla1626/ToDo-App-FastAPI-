@@ -2,10 +2,13 @@
 This is a simple Todos application built using FastAPI. It allows users to create, read, update, and delete tasks to be done. The application uses PostgreSQL as its database and SQLAlchemy as the ORM library to communicate with the database.
 
 ## Tech Stack Used
-**FastAPI:** a modern, fast (high-performance) web framework for building APIs with Python 3.6+ based on standard Python type hints.
+**FastAPI:** a modern, fast (high-performance) web framework for building APIs with Python 3.6+ based on standard Python type hints. 
+
 **PostgreSQL:** a powerful, open-source object-relational database system known for its reliability, robustness, and ability to handle high volumes of data.
+
 **SQLAlchemy:** a SQL toolkit and Object-Relational Mapping (ORM) library that provides a set of high-level API for connecting to relational databases and manipulating the data stored in them.
-Running the Application
+
+### Running the Application
 To run the application on your local machine, you need to follow these steps:
 
 #### 1. Setting up the Environment
@@ -57,9 +60,9 @@ Alternatively, you can use the provided entrypoint.sh shell script to start the 
 
     # Start the FastAPI server
     uvicorn main:app --reload
-    Make the script executable:
+    
+**Make the script executable:**
 
-**Change the permission to run the script**
     chmod +x entrypoint.sh
 
 Then, run the script:
