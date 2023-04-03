@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Activate the virtual environment
-source .venv/bin/activate
+source .venv/Scripts/activate
 
 # Change directory to the directory where your main file resides
 cd ToDo
